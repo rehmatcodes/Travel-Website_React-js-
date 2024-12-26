@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const PriceCard = ({ plan: { planicon, title, text, plantype, plancontent, buttonText } }) => {

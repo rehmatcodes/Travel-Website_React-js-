@@ -36,9 +36,9 @@ const Navbar = ({ navlinks }) => {
           <NavLink to={`/`} className="flex items-center">
             <img src={logo} alt='logo/img' className='w-22 h-9 object-fill' />
           </NavLink>
-          <ul className='flex items-center lg:hidden gap-7'>
+          <ul className='flex items-center lg:hidden gap-7 '>
             {navlinks?.map((val, i) => (
-              <li key={i}><NavLink to={'#'} className="text-lg text-slate-900">{val.link}</NavLink></li>
+              <li key={i}><NavLink to={'#'} className="text-lg text-slate-900 hover:text-green-700 transition-colors duration-300">{val.link}</NavLink></li>
             ))}
           </ul>
           <ul className='flex items-center lg:hidden'>
